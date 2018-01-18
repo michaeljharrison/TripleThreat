@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triple Threat", "Assembly-CSharp.csproj", "{0B8F02E1-CE9F-459A-6EFC-934AA8E68198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triple Threat", "Assembly-CSharp-Editor.csproj", "{5681A7EA-70AE-A72D-4400-9E922F6AADB0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{0B8F02E1-CE9F-459A-6EFC-934AA8E68198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8F02E1-CE9F-459A-6EFC-934AA8E68198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8F02E1-CE9F-459A-6EFC-934AA8E68198}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5681A7EA-70AE-A72D-4400-9E922F6AADB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5681A7EA-70AE-A72D-4400-9E922F6AADB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5681A7EA-70AE-A72D-4400-9E922F6AADB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5681A7EA-70AE-A72D-4400-9E922F6AADB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
