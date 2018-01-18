@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Scene_1.unity
+- path: Assets/Scenes/Text_Adventure_0.1.unity
   isLoaded: 1
   isActive: 1

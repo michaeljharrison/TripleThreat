@@ -19,10 +19,11 @@ public class Next_Level_Trigger : MonoBehaviour {
 	void OnTriggerEnter (Collider colliderHit) {
 		// Check if it's the player that collided:
 		string objectHit = colliderHit.gameObject.tag;
-		Debug.Log (objectHit);
+		if (objectHit == "Player") {
+			// Loads the next scene async.
+			StartCoroutine (LoadNextScene ());
 
-		// Loads the next scene async.
-		StartCoroutine (LoadNextScene ());
+		}
 	}
 
 	IEnumerator LoadNextScene () {
