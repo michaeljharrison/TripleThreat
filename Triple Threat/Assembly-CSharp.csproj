@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -51,10 +51,71 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Input_Controller.cs" />
-     <Compile Include="Assets\Input_History.cs" />
-     <Compile Include="Assets\Output_Controller.cs" />
-     <Compile Include="Assets\Scripts\Next_Level_Trigger.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Cameras\Scripts\AutoCam.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Cameras\Scripts\HandHeldCam.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Cameras\Scripts\LookatTarget.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Cameras\Scripts\TargetFieldOfView.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\Explosive.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\FireLight.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\Hose.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\SmokeParticles.cs" />
+     <Compile Include="Assets\Import\StandardAssets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Import\StandardAssets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Scripts\Text_Adventure\Input_Controller.cs" />
+     <Compile Include="Assets\Scripts\Text_Adventure\Input_History.cs" />
+     <Compile Include="Assets\Scripts\Text_Adventure\Output_Controller.cs" />
+     <Compile Include="Assets\Scripts\Text_Adventure\State.cs" />
+     <Compile Include="Assets\Scripts\Text_Adventure\Transition.cs" />
+     <None Include="Assets\Import\StandardAssets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Import\StandardAssets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Import\StandardAssets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Import\StandardAssets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Import\StandardAssets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Import\StandardAssets\Effects\ImageEffects\Readme.txt" />
+     <None Include="Assets\Import\StandardAssets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Import\StandardAssets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Import\StandardAssets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Import\StandardAssets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Import\StandardAssets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Import\StandardAssets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Import\StandardAssets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Import\StandardAssets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Import\StandardAssets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Import\StandardAssets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Import\StandardAssets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Import\StandardAssets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
